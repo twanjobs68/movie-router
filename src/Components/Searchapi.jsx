@@ -65,10 +65,10 @@ class Searchapi extends Component {
 
                 <h3>Movie Info</h3>
                 <ul>
-                    <li>Title: {this.state.data.Title}</li>
-                    <li>Poster: {this.state.data.Poster}</li>
+                    <li> {this.state.data.Title}</li>
+                    <li> <img src={this.state.data.Poster}/></li>
                     <br></br>
-                    <li>Overview:{this.state.data.Plot}</li> 
+                    <li>Overview : {this.state.data.Plot}</li> 
                     <br></br>
                     <li>Rated:{this.state.data.Rated} Released Year: {this.state.data.Year}</li> 
                 </ul>
