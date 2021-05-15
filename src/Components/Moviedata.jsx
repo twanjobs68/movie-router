@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
+rsf
 class Moviedata extends Component {
     render() {
         return (
             <div class="moviecss">
-                <h2>This is the About page</h2>
-                <h2>About this SHOP ..</h2>
+                <h2>This is the Movie Info page</h2>
+                <p> Info ..</p>
             </div>
         );
     }
