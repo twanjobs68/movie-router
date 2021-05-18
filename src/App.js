@@ -19,6 +19,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/moviedata" component={Moviedata} />
           <Route path="/searchapi" component={Searchapi} />
+          <Route path ="/home" component={Home} />
         </switch>
 
 
@@ -30,6 +31,7 @@ function App() {
 const Home = () => (
   <div className="homecss">
     <h2>Home</h2>
+  
   </div>
 )
 export default App;

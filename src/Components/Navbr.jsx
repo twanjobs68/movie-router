@@ -15,15 +15,18 @@ function Navbr() {
         <div>
             < nav >
                 <Link to= "/">
-                     <h3>Search The Movies</h3>
+                     <h3>2K's Movie Search</h3>
                 </Link>
                
                 {/* <ul> */}
                 <ul style = {navStyle}>
                     {/*6.wrap each li in link tag*/}
-                    <Link to = "/moviedata">
+                    {/* <Link to = "/moviedata">
                        <li>Movie Info</li>
-                    </Link>
+                    </Link> */}
+                    {/* <Link to = "/home">
+                       <li>HOME</li>
+                    </Link> */}
                     <Link to = "/searchapi">
                        <li>Search</li>
                     </Link>
